@@ -46,7 +46,7 @@ Javascript is used to provide better user experience and more interaction to the
 ## Project Structure
 
 In order to achieve scalability in the future, the project follows the following structure
-
+```bash
 step-navigation-task/
 ├── docs/
 │ └── README.md
@@ -75,7 +75,7 @@ step-navigation-task/
 └── js/
 └── components/
 └── step-navigation.js
-
+```
 ## Note
 
 Please keep in mind that this is just a representational implementation. It doesn't contain any deeper logic like step selection order.
