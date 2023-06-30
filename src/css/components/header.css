@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  background: var(--header-bg);
+  box-shadow: var(--header-shadow);
+  padding: var(--header-padding);
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.menu a {
+  color: #012c3b;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (min-width: 500px) and (max-width: 1023px) {
+  .header {
+    padding: 0;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .header {
+    height: 60px;
+    padding: 0;
+  }
+
+  .menu {
+    flex-wrap: nowrap;
+    height: 60px;
+    max-width: 940px;
+    margin: 0 auto;
+  }
+
+  .menu-item a {
+    flex-direction: row;
+  }
+}
